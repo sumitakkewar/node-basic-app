@@ -6,7 +6,10 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "test": "jest"
+    "test": "jest",
+    "restart:staging": "pm2 restart staging",
+    "restart:production": "pm2 restart production",
+    "restart:qa": "pm2 restart qa"
   },
   "keywords": [],
   "author": "",
