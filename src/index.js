@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 1234;
 
 app.get('/', (req, res) => {
-    res.status(200).send(`Hello world, THIS IS WORLD OF ${process.env.NODE_ENV}!`)
+    res.status(200).send(`Hello world, QA Area THIS IS WORLD OF ${process.env.NODE_ENV}!`)
 })
 
 app.listen(port, () => {
